@@ -1,0 +1,62 @@
+:root{
+    --font:"DM Sans", sans-serif;
+    --color-font: rgb(195, 199, 202);
+    --color-bg:rgb(18, 18, 121);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(18, 18, 121);
+    font-family:var(--font);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    margin-top: 70px;
+}
+
+p{
+    cursor:default
+}
+
+.text #chapter{
+    text-align: center;
+    color:var(--color-font);
+    font-weight: 600;
+    font-size: 25px;
+    margin: 7px 0px;
+}
+
+.text #informations{
+    text-align: center;
+    color: var(--color-font);
+    margin: 14px 0px;   
+}
+
+.commands{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;   
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    color: var(--color-font);
+    background-color:var(--color-bg);
+}
